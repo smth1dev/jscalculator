@@ -1,0 +1,46 @@
+<FORM NAME="Calc">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<center>
+
+<TABLE style=" width:40%;" class="table table-stripped" BORDER=2>
+<TR>
+<TD>
+<INPUT TYPE="text"   NAME="Input" Size="50">
+<br>
+</TD>
+</TR>
+<TR>
+<TD>
+<INPUT TYPE="button" class="btn btn-warning" NAME="one" style="width:20%;"  VALUE="  1  " OnClick="Calc.Input.value += '1'">
+<INPUT TYPE="button" class="btn btn-warning" NAME="two"  style="width:20%;" VALUE="  2  " OnCLick="Calc.Input.value += '2'">
+<INPUT TYPE="button" class="btn btn-warning" NAME="three" style="width:20%;" VALUE="  3  " OnClick="Calc.Input.value += '3'">
+<INPUT TYPE="button" class="btn btn-warning" NAME="plus"  style="width:20%;" VALUE="  +  " OnClick="Calc.Input.value += ' + '">
+</TD>
+</TR>
+<TR><TD>
+<INPUT TYPE="button" class="btn btn-warning" NAME="four" style="width:20%;" VALUE="  4  " OnClick="Calc.Input.value += '4'">
+<INPUT TYPE="button" class="btn btn-warning" NAME="five" style="width:20%;" VALUE="  5  " OnCLick="Calc.Input.value += '5'">
+<INPUT TYPE="button" class="btn btn-warning" NAME="six"  style="width:20%;" VALUE="  6  " OnClick="Calc.Input.value += '6'">
+<INPUT TYPE="button" class="btn btn-warning" NAME="minus" style="width:20%;" VALUE="  -  " OnClick="Calc.Input.value += ' - '">
+</TD></TR>
+<TR><TD>
+
+<INPUT TYPE="button" class="btn btn-warning" NAME="seven" style="width:20%;" VALUE="  7  " OnClick="Calc.Input.value += '7'">
+<INPUT TYPE="button" class="btn btn-warning" NAME="eight" style="width:20%;" VALUE="  8  " OnCLick="Calc.Input.value += '8'">
+<INPUT TYPE="button" class="btn btn-warning" NAME="nine" style="width:20%;" VALUE="  9  " OnClick="Calc.Input.value += '9'">
+<INPUT TYPE="button" class="btn btn-warning" NAME="times" style="width:20%;" VALUE="  x  " OnClick="Calc.Input.value += ' * '">
+</TD></TR>
+<TR><TD>
+<INPUT TYPE="button" class="btn btn-warning" NAME="clear" style="width:20%;" VALUE="  c  " OnClick="Calc.Input.value = ''">
+<INPUT TYPE="button" class="btn btn-warning" NAME="zero" style="width:20%;"  VALUE="  0  " OnClick="Calc.Input.value += '0'">
+<INPUT TYPE="button" class="btn btn-warning" NAME="DoIt" style="width:20%;"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+<INPUT TYPE="button" class="btn btn-warning" NAME="div" style="width:20%;"  VALUE="  /  " OnClick="Calc.Input.value += ' / '">
+
+</TD>
+</TR>
+</TABLE>
+
+</center>
+</FORM>
+
+<p align="center"><font face="arial" size="-2">Simple Calculator Created by <a href="https://github.com/smth1dev"> smth1dev</a> </font><br>
